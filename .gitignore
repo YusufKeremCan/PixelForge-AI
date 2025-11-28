@@ -1,0 +1,18 @@
+# --- SİSTEM DOSYALARI ---
+.DS_Store
+
+# --- BACKEND GEREKSİZLERİ (Çok Ağır Dosyalar) ---
+backend/venv/
+backend/__pycache__/
+backend/uploads/
+backend/results/
+backend/*.sqlite3
+backend/weights/
+backend/gfpgan/
+
+# --- FRONTEND GEREKSİZLERİ ---
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env.local
